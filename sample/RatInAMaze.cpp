@@ -3,23 +3,7 @@ using namespace std;
 
 // vector<pair<int, int>> t;
 
-int ways(vector<vector<char>> &a, int row, int col, int i, int j){
-    // if((i==row-1) && (j==col-1)){
-    //     //  t.push_back({i, j});
-    //     // ans.push_back(t);
-    //     // t.clear();
-    //     return 1;
-    //     // ans.size();
-    // }
-
-    // if(i==row || j==col || a[i][j]=='*')
-    //     return 0;
-
-    // // if(isSafe(i, j, a, row, col)){
-    //     // t.push_back({i, j});
-    //     return ways(a, row, col, i+1, j)+ways(a, row, col, i,j+1);
-    // // }
-    
+int ways(vector<vector<char>> &a, int row, int col, int i, int j){    
     vector<vector<int>> ans(row, vector<int>(col,0));
     ans[0][0]=1;
     for(int i=1;i<col;i++){
