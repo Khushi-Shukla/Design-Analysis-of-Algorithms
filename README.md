@@ -1,5 +1,5 @@
 # Design and Analysis of Algorithms
-Module wise C++ code
+Module wise questions.
 
 ## Module 1
 1. Write a C++ program to find the greatest of three numbers.
