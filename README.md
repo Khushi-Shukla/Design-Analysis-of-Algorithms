@@ -51,7 +51,7 @@ There is an NxM grid in which there are N rows and M colums. A cell (i,j) is def
   Each cell consists of either . or *
   The grid consists of (2, 1) and (N, M). Write a C++ program for the above case using dynamic programming
 
-### 2. Hackerearth Problem - *Trustworthy network*
+### 2. Hackerearth Problem: *Trustworthy network*
 You are a secret agent of S.C.R.E.E.N., who infiltrated the evil organization called Hyena. You have discovered a vital information and want to send it from city s to city e via unidirectional telegraphs.
 
   Unfortunately, you can't trust anyone, so to be sure that the message was delivered and it is correct, you want to receive an acknowledgement message from city e. So if the message was sent through cities s=u_1, u_2,...,u_k =e , then city e sends an acknowledgement message to , u_k-1 then u_k-1 sends an acknowledgement message to u_k-2 and so on, until s receives acknowledgement message.
