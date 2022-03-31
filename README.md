@@ -69,4 +69,3 @@ You are a secret agent of S.C.R.E.E.N., who infiltrated the evil organization ca
   The output must contain a single integer — minimum money to be spent, to deliver the message in trustworthy way from city s to city e, or -1, if it's impossible.
 
 
-Readme to be updated soon
